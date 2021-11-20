@@ -22,9 +22,7 @@
 <build>
  <plugins>
      <plugin> 
-
                 <!-- Building an executable jar -->
-
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.0</version>
@@ -34,7 +32,6 @@
 
                     <!-- give full qualified name of your main class-->
                       <mainClass>com.javahungry.Demo</mainClass>
-
                     </manifest>
                   </archive>
                 </configuration>
